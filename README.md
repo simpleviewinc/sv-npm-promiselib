@@ -1,7 +1,7 @@
+[![Build Status](https://travis-ci.org/simpleviewinc/sv-npm-promiselib.svg?branch=master)](https://travis-ci.org/simpleviewinc/sv-npm-promiselib)
+
 # @simpleview/promiselib
 Promise utilities
-
-* prom
 
 ## Getting Started
 
