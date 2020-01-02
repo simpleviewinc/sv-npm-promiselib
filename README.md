@@ -9,7 +9,7 @@ Promise utilities
 npm install @simpleview/promiselib
 ```
 
-```
+```js
 const promiseLib = require("@simpleview/promiselib");
 ```
 
@@ -23,7 +23,7 @@ You use this method exactly like you would use Node's `util.promisify()`.
 
 * fn - `function` - The function you want to promisify.
 
-```
+```js
 var cbFunction = function(cb) { return cb(null, "someValue"); }
 var promisified = promiseLib.promisifyCached(cbFunction);
 ```
@@ -37,7 +37,7 @@ var promisified = promiseLib.promisifyCached(cbFunction);
 
 In the following block each instance of `MyClass` will have `this.promises.methodA` and `this.promises.methodB` and both to the context of their specific instances.
 
-```
+```js
 var MyClass = function() {
 	this.promises = promiseLib.promisifyMethods(this, ["methodA", "methodB"]);
 };
