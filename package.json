@@ -1,0 +1,24 @@
+{
+	"name": "@simpleview/promiselib",
+	"version": "1.0.0",
+	"description": "Promise utilities",
+	"main": "src/index.js",
+	"devDependencies": {
+		"mocha": "5.2.0"
+	},
+	"scripts": {
+		"test": "mocha testing/index.test.js",
+		"docker": "./dev/build && ./dev/run || true",
+		"publish": "./dev/publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/simpleviewinc/sv-npm-promiselib.git"
+	},
+	"author": "owenallenaz@gmail.com",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/simpleviewinc/sv-npm-promiselib/issues"
+	},
+	"homepage": "https://github.com/simpleviewinc/sv-npm-promiselib#readme"
+}
