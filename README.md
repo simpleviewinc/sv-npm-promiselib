@@ -17,7 +17,7 @@ const promiseLib = require("@simpleview/promiselib");
 
 ### promisifyCached
 
-`promisifyCached` provides caching micro-optimizations in cases when you execute `util.promisify` the same method many times. Calling it for each instance of the object is very expensive, and this eliminates the expense.
+`promisifyCached` provides caching micro-optimizations in cases when you execute `util.promisify` the same method many times. In example, calling it for each instance of an object is very expensive, and this eliminates the expense.
 
 You use this method exactly like you would use Node's `util.promisify()`.
 
